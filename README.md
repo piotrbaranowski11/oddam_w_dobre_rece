@@ -4,18 +4,18 @@ The aim of the project is to create a place where everyone will be able to give 
 
 ### PROJECT PAGE
 
-coming soon...
+* coming soon...
 
 ### TECHNOLOGIES
 
-Javascript
-React
-React Router
-React Hook Form
-Firebase
-HTML
-ES6
-SASS
+* Javascript
+* React
+* React Router
+* React Hook Form
+* Firebase
+* HTML
+* ES6
+* SASS
 
 ### FEATURES
 
