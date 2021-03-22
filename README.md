@@ -1,14 +1,14 @@
-#ODDAM W DOBRE RĘCE
+###ODDAM W DOBRE RĘCE
 
-#IN GOOD HANDS
+###IN GOOD HANDS
 
 The aim of the project is to create a place where everyone will be able to give unnecessary things to trusted institutions. This project was bootstrapped with Create React App and was made during workshop in Coders Lab's Bootcamp: JavaScript Developer (React).
 
-#Project Page
+###Project Page
 
 comming soon...
 
-#Technologies
+###Technologies
 
 Javascript
 React
@@ -20,18 +20,18 @@ HTML
 ES6
 SASS
 
-#Features
+###Features
 
 Responsive Web Design
 Login, registration, logging out with authentication using Firebase
 Form validation and adding to Firebase Realtime Database
 
-#Install
+###Install
 
 clone this repository
 install packages in the main directory: npm install or npm i
 run App: npm start
 
-#Status
+###Status
 
 in progress
