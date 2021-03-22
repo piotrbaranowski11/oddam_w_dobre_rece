@@ -1,6 +1,6 @@
 ### ODDAM W DOBRE RĘCE / IN GOOD HANDS
 
-The aim of the project is to create a place where everyone will be able to give unnecessary things to trusted institutions. This project was bootstrapped with Create React App and was made during workshop in Coders Lab's Bootcamp: JavaScript Developer (React).
+The aim of the project is to create a place where everyone will be able to give unnecessary things to trusted institutions. This project was bootstrapped with Create React App and was made during workshop in CodersLab's Bootcamp: JavaScript Developer (React).
 
 ### PROJECT PAGE
 
@@ -11,6 +11,7 @@ The aim of the project is to create a place where everyone will be able to give 
 * Javascript
 * React
 * React Router
+* React Scroll
 * React Hook Form
 * Firebase
 * HTML
@@ -20,7 +21,9 @@ The aim of the project is to create a place where everyone will be able to give 
 ### FEATURES
 
 * Responsive Web Design
-* Login, registration, logging out with authentication using Firebase
+* Login
+* Registration 
+* Logging out with authentication using Firebase
 * Form validation and adding to Firebase Realtime Database
 
 ### INSTALL
