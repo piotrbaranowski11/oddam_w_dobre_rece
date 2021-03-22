@@ -1,18 +1,20 @@
+### ODDAM W DOBRE RĘCE
 
-### General Info
+### IN GOOD HANDS
 
 The aim of the project is to create a place where everyone will be able to give unnecessary things to trusted institutions. This project was bootstrapped with Create React App and was made during workshop in Coders Lab's Bootcamp: JavaScript Developer (React).
 
 ### Project Page
 
-coming soon
+comming soon...
 
-### Technologies
+###Technologies
 
 Javascript
 React
 React Router
 React Hook Form
+Material-UI
 Firebase
 HTML
 ES6
