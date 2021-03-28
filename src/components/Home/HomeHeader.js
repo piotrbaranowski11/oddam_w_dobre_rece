@@ -26,7 +26,7 @@ function HomeHeader() {
               <br />
               Oddaj niechciane rzeczy w zaufane ręce
             </p>
-            <img src={require("./../../assets/Decoration.svg")} />
+            <img src={require("./../../assets/Decoration.svg").default} />
             <div className="header__btns">
               {!currentUser?.email && (
                 <>

@@ -1,5 +1,4 @@
 import firebase from "firebase/app";
-import app from "firebase/app";
 import "firebase/database";
 import "firebase/auth";
 
@@ -14,31 +13,6 @@ const firebaseConfig = {
   };
 
 
-  class Firebase {
-    constructor() {
-        app.initializeApp(firebaseConfig);
-
-        this.auth = app.auth();
-        this.db = app.database();
-    }
-
-    // *** Auth API ***
-
-    getCurrentUser = () => this.auth.currentUser?.email
-
-    doCreateUserWithEmailAndPassword = (email, password) =>
-        this.auth.createUserWithEmailAndPassword(email, password);
-
-    doSignInWithEmailAndPassword = (email, password) =>
-        this.auth.signInWithEmailAndPassword(email, password);
-
-    doSignOut = () => this.auth.signOut();
-
-    user = uid => this.db.ref(`users/${uid}`);
-
-    users = () => this.db.ref('users');
-
-}
 
   const fire = firebase.initializeApp(firebaseConfig);
 

@@ -7,6 +7,7 @@ import {
   Navlink
 } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
+import fire from "../../config/fire.js";
 import { AuthContext } from "../Auth/Auth";
 
 function Navigation() {
@@ -36,7 +37,7 @@ function Navigation() {
             </Link>
             <Link
               to="/wylogowano"
-              // onClick={() => fire.auth().signOut()}
+              onClick={() => fire.auth().signOut()}
               className="Navigation__logIn"
             >
               WYLOGUJ

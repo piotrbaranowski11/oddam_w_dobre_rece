@@ -11,25 +11,25 @@ function HomeSimpleSteps() {
           <span className="SimpleSteps__itsSimple">
             Wystarczą 4 proste kroki
           </span>
-          <img src={require("./../../assets/Decoration.svg")} />
+          <img src={require("./../../assets/Decoration.svg").default} />
         </div>
         <div className="SimpleSteps__steps">
           <div className="SimpleSteps__step">
-            <img src={require("./../../assets/Icon.png")} />
+            <img src={require("./../../assets/Icon-1.svg").default} />
             <span className="SimpleSteps_whatToDo">Wybierz rzeczy</span>
             <span className="SimpleSteps_describe">
               ubrania, zabawki, sprzęt i inne
             </span>
           </div>
           <div className="SimpleSteps__step">
-            <img src={require("./../../assets/Icon4.png")} />
+            <img src={require("./../../assets/Icon-2.svg").default} />
             <span className="SimpleSteps_whatToDo">Spakuj je</span>
             <span className="SimpleSteps_describe">
               skorzystaj z worków na śmieci
             </span>
           </div>
           <div className="SimpleSteps__step">
-            <img src={require("./../../assets/Icon3.png")} />
+            <img src={require("./../../assets/Icon-3.svg").default} />
             <span className="SimpleSteps_whatToDo">
               Zdecyduj komu chcesz pomóc
             </span>
@@ -38,7 +38,7 @@ function HomeSimpleSteps() {
             </span>
           </div>
           <div className="SimpleSteps__step">
-            <img src={require("./../../assets/Icon2.png")} />
+            <img src={require("./../../assets/Icon-4.svg").default} />
             <span className="SimpleSteps_whatToDo">Zamów kuriera</span>
             <span className="SimpleSteps_describe">
               kurier przyjedzie w dogodnym terminie

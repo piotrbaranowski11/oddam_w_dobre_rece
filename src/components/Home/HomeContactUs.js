@@ -36,9 +36,9 @@ function HomeContactUs() {
     }
 
     if (!form.name) {
-      err.name = "Imię jest wymagane!";
+      err.name = "Imię i nazwisko jest wymagane!";
     } else if (!re2.test(form.name)) {
-      err.name = "Podane imię jest nieprawidłowe!";
+      err.name = "Podane imię i nazwisko jest nieprawidłowe!";
     }
 
     if (form.message.length < 120) {
@@ -86,21 +86,21 @@ function HomeContactUs() {
       <section className="ContactUs" name="HomeContactUs">
         <div className="ContactUs__main">
           <span className="ContactUs__contact">Skontaktuj się z nami</span>
-          <img src={require("./../../assets/Decoration.svg")} />
+          <img src={require("./../../assets/Decoration.svg").default} />
           <span className="ContactUs__winInfo">{winInfo}</span>
 
           <div>
             <form className="ContactUs__form">
               <div className="ContactUs__name">
                 <label>
-                  <span>Wpisz swoje imię</span>
+                  <span>Wpisz swoje imię i nazwisko</span>
                   <input
                     className={!errors.name ? "ContactUs_input" : "ContactUs_error"}
                     type="name"
                     name="name"
                     id="name"
                     onChange={updateForm}
-                    placeholder="Maciej"
+                    placeholder="Jan Kowalski"
                   />
                   <p className="ContactUs_errorText">{errors.name}</p>
                 </label>
@@ -112,7 +112,7 @@ function HomeContactUs() {
                     name="email"
                     id="email"
                     onChange={updateForm}
-                    placeholder="xyz@gmail.com"
+                    placeholder="yourmail@gmail.com"
                   />
                 <p className="ContactUs_errorText">{errors.email}</p>
                 </label>
@@ -142,10 +142,10 @@ function HomeContactUs() {
           <span>Copyright by Coders Lab</span>
           <div className="ContactUs__images">
             <a href="https://www.facebook.com">
-              <img src={require("./../../assets/Facebook.png")} />
+              <img src={require("./../../assets/Facebook.svg").default} />
             </a>
             <a href="https://www.instagram.com">
-              <img src={require("./../../assets/Instagram.png")} />
+              <img src={require("./../../assets/Instagram.svg").default} />
             </a>
           </div>
         </footer>

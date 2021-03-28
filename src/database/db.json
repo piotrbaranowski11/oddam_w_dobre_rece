@@ -1,103 +1,102 @@
 {
-    "Fundations": [
-      {
-        "name": "Fundacjom",
-        "desc": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.",
-        "items": [
-          {
-            "header": "Fundacja 'Dbam o Zdrowie'",
-            "subheader": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
-            "desc": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej"
-          },
-          {
-            "header": "Fundacja 'Dla dzieci'",
-            "subheader": "ubrania, meble, zabawki",
-            "desc": "Pomoc dziecion z ubogich rodzin"
-          },
-          {
-            "header": "Fundacja 'Bez domu'",
-            "subheader": "ubrania, jedzenie, ciepłe koce",
-            "desc": "Pomoc dla osób nie posiadających miejsca zamieszkania"
-          },
-          {
-            "header": "To jest header - Fundacjom",
-            "subheader": "To jest subheader4",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Fundacjom",
-            "subheader": "To jest subheader5",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Fundacjom",
-            "subheader": "To jest subheader6",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Fundacjom",
-            "subheader": "To jest subheader7",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Fundacjom",
-            "subheader": "To jest subheader8",
-            "desc": "To jest desc"
-          }
-        ]
-      },
-      {
-        "name": "Organizacjom pozarządowym",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non efficitur nulla. Cras sed efficitur sapien, eget suscipit ligula. Fusce tellus lorem, porttitor vel vulputate imperdiet, tempus ut diam.",
-        "items": [
-          {
-            "header": "To jest header - Organizacjom pozarządowym",
-            "subheader": "To jest subheader1",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Organizacjom pozarządowym",
-            "subheader": "To jest subheader2",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Organizacjom pozarządowym",
-            "subheader": "To jest subheader3",
-            "desc": "To jest desc"
-          }
-        ]
-      },
-      {
-        "name": "Lokalnym zbiórkom",
-        "desc": "Pellentesque eget enim vel est congue feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pulvinar, felis vitae ultrices faucibus, nulla justo pretium nisi, in ornare massa quam sit amet turpis.",
-        "items": [
-          {
-            "header": "To jest header - Lokalnym zbiórkom",
-            "subheader": "To jest subheader1",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Lokalnym zbiórkom",
-            "subheader": "To jest subheader2",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Lokalnym zbiórkom",
-            "subheader": "To jest subheader3",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Lokalnym zbiórkom",
-            "subheader": "To jest subheader4",
-            "desc": "To jest desc"
-          },
-          {
-            "header": "To jest header - Lokalnym zbiórkom",
-            "subheader": "To jest subheader5",
-            "desc": "To jest desc"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "Fundations": [
+    {
+      "name": "Fundacjom",
+      "desc": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.",
+      "items": [
+        {
+          "header": "Fundacja 'Dbam o Zdrowie'",
+          "subheader": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+          "desc": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej"
+        },
+        {
+          "header": "Fundacja 'Dla dzieci'",
+          "subheader": "ubrania, meble, zabawki",
+          "desc": "Pomoc dziecion z ubogich rodzin"
+        },
+        {
+          "header": "Fundacja 'Bez domu'",
+          "subheader": "ubrania, jedzenie, ciepłe koce",
+          "desc": "Pomoc dla osób nie posiadających miejsca zamieszkania"
+        },
+        {
+          "header": "To jest header - Fundacjom",
+          "subheader": "To jest subheader4",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Fundacjom",
+          "subheader": "To jest subheader5",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Fundacjom",
+          "subheader": "To jest subheader6",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Fundacjom",
+          "subheader": "To jest subheader7",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Fundacjom",
+          "subheader": "To jest subheader8",
+          "desc": "To jest desc"
+        }
+      ]
+    },
+    {
+      "name": "Organizacjom pozarządowym",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non efficitur nulla. Cras sed efficitur sapien, eget suscipit ligula. Fusce tellus lorem, porttitor vel vulputate imperdiet, tempus ut diam.",
+      "items": [
+        {
+          "header": "To jest header - Organizacjom pozarządowym",
+          "subheader": "To jest subheader1",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Organizacjom pozarządowym",
+          "subheader": "To jest subheader2",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Organizacjom pozarządowym",
+          "subheader": "To jest subheader3",
+          "desc": "To jest desc"
+        }
+      ]
+    },
+    {
+      "name": "Lokalnym zbiórkom",
+      "desc": "Pellentesque eget enim vel est congue feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pulvinar, felis vitae ultrices faucibus, nulla justo pretium nisi, in ornare massa quam sit amet turpis.",
+      "items": [
+        {
+          "header": "To jest header - Lokalnym zbiórkom",
+          "subheader": "To jest subheader1",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Lokalnym zbiórkom",
+          "subheader": "To jest subheader2",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Lokalnym zbiórkom",
+          "subheader": "To jest subheader3",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Lokalnym zbiórkom",
+          "subheader": "To jest subheader4",
+          "desc": "To jest desc"
+        },
+        {
+          "header": "To jest header - Lokalnym zbiórkom",
+          "subheader": "To jest subheader5",
+          "desc": "To jest desc"
+        }
+      ]
+    }
+  ]
+}

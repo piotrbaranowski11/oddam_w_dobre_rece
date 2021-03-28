@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-
 function HomeWhoWeHelp() {
   const [info, setInfo] = useState([]);
   const [current, setCurrent] = useState("Fundacjom");
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(3);
+  const [postsPerPage] = useState(3);
 
   useEffect(() => {
     fetch("https://api.jsonbin.io/b/5ed3b29660775a5685857a68/1")
@@ -15,7 +14,6 @@ function HomeWhoWeHelp() {
 
   const getFundations = () => {
     return info?.find(fun => fun.name === current);
-    console.log(info)
   };
 
   const handleChangeFundation = (e) => {
@@ -86,7 +84,7 @@ function HomeWhoWeHelp() {
     <>
       <section className="WhoWeHelp" name="HomeWhoWeHelp">
         <span className="WhoWeHelp__who">Komu pomagamy?</span>
-        <img src={require("./../../assets/Decoration.svg")} />
+        <img src={require("./../../assets/Decoration.svg").default} />
         <div className="WhoWeHelp_btns">
           <button
             style={borderOne}

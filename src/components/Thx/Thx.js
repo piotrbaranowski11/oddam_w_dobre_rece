@@ -25,3 +25,4 @@ function Thx() {
 }
 
 export default Thx;
+
