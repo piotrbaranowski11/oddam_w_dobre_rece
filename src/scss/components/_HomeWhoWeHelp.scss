@@ -1,0 +1,104 @@
+.WhoWeHelp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .WhoWeHelp__who {
+      margin-top: 4.4rem;
+      margin-bottom: 1.5rem;
+      font-size: 2.4rem;
+    }
+    img {
+      margin-bottom: 3rem;
+    }
+    .WhoWeHelp_btns {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 20rem;
+      margin-bottom: 3rem;
+      .btn {
+        font-size: 1.5rem;
+        border: none;
+        text-decoration: none;
+        flex-direction: column;
+        width: 12rem;
+        height: 5rem;
+        justify-content: center;
+        text-align: center;
+        font-weight: lighter;
+        background-color: white;
+        cursor: pointer;
+        &:first-of-type {
+          flex-direction: row;
+        }
+        &:focus {
+  
+          transform: scale(1.1);
+          transition: background 250ms ease-in-out, transform 150ms ease;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+        }
+      }
+    }
+    .WhoWeHelp__describe {
+      font-size: 1.4rem;
+      width: 45rem;
+      align-self: center;
+      margin-bottom: 2rem;
+      height: 7rem;
+    }
+    ul {
+      font-family: $font-alt;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 19rem;
+  
+      .WhoWeHelp__el {
+        display: flex;
+        justify-content: space-between;
+        width: 75rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        border-bottom: 1px solid #b9b9b9;
+  
+        .WhoWeHelp__item {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          .WhoWeHelp__header {
+            font-size: 1.625rem;
+            font-weight: lighter;
+          }
+          .WhoWeHelp__littleDesc {
+            font-size: 1.1rem;
+            font-weight: lighter;
+          }
+        }
+        .WhoWeHelp__subheader {
+          font-size: 1.1rem;
+          font-weight: lighter;
+          align-items: center;
+          display: flex;
+        }
+      }
+    }
+    .WhoWeHelp__paginationBtns {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      align-self: center;
+      height: 2rem;
+      button {
+        background: none;
+        border: none;
+        margin-right: 2rem;
+        cursor: pointer;
+        &:focus {
+          border: solid 1px black;
+        }
+      }
+    }
+  }
+  

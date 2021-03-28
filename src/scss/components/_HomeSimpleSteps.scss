@@ -1,0 +1,68 @@
+.SimpleSteps {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    .SimpleSteps__header {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 3.2rem 0 2rem 0;
+      .SimpleSteps__itsSimple {
+        font-size: 2.375rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .SimpleSteps__steps {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: $color-base;
+      padding: 4.5rem 0 3.8rem 0;
+      .SimpleSteps__step {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .SimpleSteps_whatToDo {
+          font-size: 1.2rem;
+          margin-bottom: 1.3rem;
+        }
+        .SimpleSteps_describe {
+          position: relative;
+          &::after {
+            content: "";
+            display: block;
+            height: 1.5px;
+            width: 5rem;
+            background: #222;
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+        img {
+          width: 5.2rem;
+          height: 5.2rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+    .SimpleSteps__btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      color: $color-alt2;
+      .btn {
+        @include button(2.25rem);
+        text-align: center;
+        font-weight: lighter;
+        color: $color-alt3;
+        &:visited {
+          color: $color-alt3;
+        }
+      }
+    }
+  }
+  

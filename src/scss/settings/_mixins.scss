@@ -1,0 +1,12 @@
+@mixin button($font-weight) {
+    font-size: $font-weight;
+    border: solid 1px $color-alt3;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 19.375rem;
+    height: 7.5rem;
+    justify-content: center;
+  
+  }
+  

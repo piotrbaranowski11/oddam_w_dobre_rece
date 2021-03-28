@@ -1,0 +1,25 @@
+.ThreeColumns {
+    background: url("./../../assets/3Columns.png") repeat-x center/109% auto;
+  
+    display: flex;
+    padding: 2.9rem 10.2rem 5.4rem 10.2rem;
+    justify-content: space-around;
+    .ThreeColumns__column {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .ThreeColumns__number {
+        font-size: 5.625rem;
+        font-weight: lighter;
+      }
+      .ThreeColumns__info {
+        font-size: 1.13rem;
+        margin-top: 0.7rem;
+      }
+      .ThreeColumns__describe {
+        font-weight: lighter;
+        margin-top: 1.7rem;
+      }
+    }
+  }
+  

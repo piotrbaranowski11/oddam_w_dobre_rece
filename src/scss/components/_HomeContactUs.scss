@@ -1,0 +1,144 @@
+.ContactUs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    &::after {
+      content: "";
+      background-image: url("./../../assets/BackgroundImage.png");
+      background-size: cover;
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+  
+    .ContactUs__main {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      text-align: center;
+      margin: 8.5rem 8rem 13rem 0;
+  
+      .ContactUs__contact {
+        font-size: 2.375rem;
+        margin-bottom: 2rem;
+      }
+      img {
+        margin-bottom: 1.8rem;
+      }
+      .ContactUs__form {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+  
+        .ContactUs_input {
+          border: none;
+          border-bottom: solid 1px grey;
+          padding: 0.3rem 0;
+          background: rgba(255, 255, 255, 0.4);
+          &::placeholder {
+            color: #3c3c3c26;
+  
+          }
+        }
+        .ContactUs_textarea {
+          @extend .ContactUs_input;
+          width: 108%;
+          height: 7rem;
+          overflow: hidden;
+          resize: none;
+  
+        }
+  
+        span {
+          margin-bottom: 0.5rem;
+        }
+        .ContactUs__name {
+          margin-bottom: 2.5rem;
+          display: flex;
+        }
+        label {
+          display: flex;
+          flex-direction: column;
+          font-weight: 600;
+          &:last-of-type {
+            margin-bottom: 2.75rem;
+          }
+          &:first-of-type {
+            margin-right: 2rem;
+          }
+        }
+  
+        .btn {
+          font-size: 1.125rem;
+          border: solid 1px $color-alt3;
+          text-decoration: none;
+          width: 9.4rem;
+          height: 3.12rem;
+          justify-content: center;
+          background-color: white;
+          align-self: flex-end;
+          cursor: pointer; 
+        }
+      }
+    }
+    .ContactUs__footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5rem;
+      .ContactUs__images {
+        transform: translateX(44rem);
+  
+        img {
+          width: 1.9rem;
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+  .ContactUs_error {
+    border: none;
+    border-bottom: solid 1px grey;
+    padding: 0.3rem 0;
+    border-bottom: solid 1px red;
+    &::placeholder {
+      color: #3c3c3c26;
+  
+    }
+  
+  }
+  .ContactUs_errorArea {
+    border: none;
+    border-bottom: solid 1px grey;
+    padding: 0.3rem 0;
+    width: 108%;
+    height: 7rem;
+    overflow: hidden;
+    resize: none;
+    border-bottom: solid 1px red;
+    &::placeholder {
+      color: #3c3c3c26;
+  
+    }
+  }
+  .ContactUs_errorText {
+    color: red;
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    height: 1.1rem;
+  }
+  .ContactUs__winInfo {
+    color: green;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 3rem;
+    align-self: center;
+  }
+  
