@@ -42,7 +42,7 @@ function HomeContactUs() {
     }
 
     if (form.message.length < 120) {
-      err.message = "Wiadomość musi mieć conajmniej 120 znaków!";
+      err.message = "Wiadomość musi mieć co najmniej 120 znaków!";
     }
 
 

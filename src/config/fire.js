@@ -1,8 +1,9 @@
-import firebase from "firebase/app";
-import "firebase/database";
+import firebase from "@firebase/app";
 import "firebase/auth";
+import app from "firebase/app";
+import 'firebase/database';
 
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyCYew1g10ikUH717-l6ttXd59iwni3pNZQ",
     authDomain: "oddamwdobrerece-e3fe6.firebaseapp.com",
     projectId: "oddamwdobrerece-e3fe6",
@@ -12,7 +13,31 @@ const firebaseConfig = {
     measurementId: "G-2WK99VP3SE"
   };
 
+  class Firebase {
+    constructor() {
+        app.initializeApp(firebaseConfig);
 
+        this.auth = app.auth();
+        this.db = app.database();
+    }
+
+    // *** Auth API ***
+
+    getCurrentUser = () => this.auth.currentUser?.email
+
+    doCreateUserWithEmailAndPassword = (email, password) =>
+        this.auth.createUserWithEmailAndPassword(email, password);
+
+    doSignInWithEmailAndPassword = (email, password) =>
+        this.auth.signInWithEmailAndPassword(email, password);
+
+    doSignOut = () => this.auth.signOut();
+
+    user = uid => this.db.ref(`users/${uid}`);
+
+    users = () => this.db.ref('users');
+
+}
 
   const fire = firebase.initializeApp(firebaseConfig);
 

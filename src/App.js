@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Register from "./components/Register/Register";
 import Login from "./components/Login/Login";
 import Logout from "./components/Logout/Logout";
-import GiveAway from "./components/GiveAway/GiveAway";
+// import GiveAway from "./components/GiveAway/GiveAway";
 import { AuthProvider } from "./components/Auth/Auth";
 import {
   HashRouter as Router,
@@ -31,7 +31,7 @@ const { currentUser } = useContext(AuthContext);
               <Route path="/logowanie" component={Login} />
               <Route path="/rejestracja" component={Register} />
               <Route path="/wylogowano" component={Logout} />
-              <Route path="/oddaj-rzeczy" component={GiveAway} >{!currentUser && <Redirect to="/logowanie"/>}</Route>
+              {/* <Route path="/oddaj-rzeczy" component={GiveAway} >{!currentUser && <Redirect to="/logowanie"/>}</Route> */}
               <Route path="/thx" component={Thx} />
             </Switch>
           </Router>
