@@ -93,14 +93,14 @@ function HomeContactUs() {
             <form className="ContactUs__form">
               <div className="ContactUs__name">
                 <label>
-                  <span>Wpisz swoje imię i nazwisko</span>
+                  <span>Wpisz swoje imię</span>
                   <input
                     className={!errors.name ? "ContactUs_input" : "ContactUs_error"}
                     type="name"
                     name="name"
                     id="name"
                     onChange={updateForm}
-                    placeholder="Jan Kowalski"
+                    placeholder="Jan"
                   />
                   <p className="ContactUs_errorText">{errors.name}</p>
                 </label>

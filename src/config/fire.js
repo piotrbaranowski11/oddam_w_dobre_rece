@@ -12,7 +12,7 @@ var firebaseConfig = {
     appId: "1:653469420289:web:f78cded368937b029e2900",
     measurementId: "G-2WK99VP3SE"
   };
-
+  
   class Firebase {
     constructor() {
         app.initializeApp(firebaseConfig);
