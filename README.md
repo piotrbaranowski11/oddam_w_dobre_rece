@@ -4,7 +4,7 @@ The aim of the project is to create a place where everyone will be able to give 
 
 ### PROJECT PAGE
 
-* coming soon...
+* https://piotrbaranowski11.github.io/oddam_w_dobre_rece
 
 ### TECHNOLOGIES
 
