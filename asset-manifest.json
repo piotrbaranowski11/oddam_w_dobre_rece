@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/oddam_w_dobre_rece/static/css/main.e2357ff2.chunk.css",
-    "main.js": "/oddam_w_dobre_rece/static/js/main.e0f071a5.chunk.js",
-    "main.js.map": "/oddam_w_dobre_rece/static/js/main.e0f071a5.chunk.js.map",
+    "main.js": "/oddam_w_dobre_rece/static/js/main.61b714ce.chunk.js",
+    "main.js.map": "/oddam_w_dobre_rece/static/js/main.61b714ce.chunk.js.map",
     "runtime-main.js": "/oddam_w_dobre_rece/static/js/runtime-main.bcc97f77.js",
     "runtime-main.js.map": "/oddam_w_dobre_rece/static/js/runtime-main.bcc97f77.js.map",
     "static/js/2.cef3d26d.chunk.js": "/oddam_w_dobre_rece/static/js/2.cef3d26d.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.bcc97f77.js",
     "static/js/2.cef3d26d.chunk.js",
     "static/css/main.e2357ff2.chunk.css",
-    "static/js/main.e0f071a5.chunk.js"
+    "static/js/main.61b714ce.chunk.js"
   ]
 }
