@@ -17,7 +17,7 @@ function Logout() {
           Wylogowanie nastąpiło
           <br /> pomyślnie!
         </span>
-        <img src={require("./../../assets/Decoration.svg")} />
+        <img src={require("./../../assets/Decoration.svg").default} />
         <div className="Logout__btns">
           <Link to="/" className="btn">
             Strona główna

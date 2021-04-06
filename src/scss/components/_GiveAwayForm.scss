@@ -1,0 +1,289 @@
+.GiveAwayForm {
+    background: url("../../assets/Background-Form.jpg");
+    background-size: cover;
+    background-position-x: -30rem;
+    background-position-y: 8rem;
+    padding-bottom: 3rem;
+  
+    .GiveAwayForm__important {
+      background-color: $color-alt-yellow;
+      text-align: left;
+      padding: 3rem 4rem;
+  
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+      }
+      p {
+        font-size: 1.375rem;
+      }
+    }
+    .GiveAwayForm__firstStep {
+      padding: 2.25rem 0 0 8.9rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+  
+      span {
+        padding-bottom: 4.4rem;
+        font-size: 1.5rem;
+        font-weight: lighter;
+      }
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        padding-bottom: 1.5rem;
+      }
+      label {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin: 3rem 0;
+        display: block;
+        position: relative;
+        padding-left: 65px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        span {
+          padding-bottom: 0;
+          border: solid 1px grey;
+        }
+        &:hover input ~ .checkmark {
+          background-color: #ccc;
+        }
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 35px;
+          width: 35px;
+          background-color: #eee;
+        }
+  
+        input {
+          padding-right: 2rem;
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+  
+          &:checked ~ .checkmark {
+            background-color: $color-alt-yellow;
+          }
+        }
+      }
+    }
+    .GiveAwayForm__secondStep {
+      padding: 2.25rem 0 0 8.9rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      span {
+        padding-bottom: 4.4rem;
+        font-size: 1.5rem;
+        font-weight: lighter;
+      }
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        padding-bottom: 1.5rem;
+      }
+      label {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin-top: 3rem;
+        select {
+          width: 15rem;
+          margin-left: 1.5rem;
+          text-align: center;
+          background-color: #eeede9;
+        }
+      }
+    }
+    .GiveAwayForm__thirdStep {
+      padding: 2.25rem 0 0 8.9rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font-size: 1.5rem;
+  
+      span {
+        padding-bottom: 4.4rem;
+        font-size: 1.5rem;
+        font-weight: lighter;
+      }
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        padding-bottom: 0.5rem;
+      }
+      select {
+        width: 15rem;
+        text-align: center;
+        background-color: #eeede9;
+        margin-bottom: 3rem;
+      }
+  
+      p {
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      label {
+        border: 1px solid #ccc;
+        padding: 6px 0 6px 36px;
+        margin-right: 1rem;
+      }
+      label:hover {
+        background: lightgray;
+        cursor: pointer;
+      }
+      input {
+        visibility: hidden;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+      }
+      textarea {
+        overflow: hidden;
+        resize: none;
+        background-color: #eeede9;
+        width: 44rem;
+      }
+      .GiveAwayForm__checkDiv {
+        margin-bottom: 3rem;
+      }
+    }
+    .GiveAwayForm__fourthStep {
+      padding: 2.25rem 0 0 8.9rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font-size: 1.5rem;
+  
+      span {
+        padding-bottom: 4.4rem;
+        font-size: 1.5rem;
+        font-weight: lighter;
+      }
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        padding-bottom: 0.5rem;
+        margin-bottom: 2rem;
+      }
+      .GiveAwayForm__mainInfo {
+        display: flex;
+  
+        h2 {
+          font-weight: 700;
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+        }
+        .GiveAwayForm__column {
+          display: grid;
+          grid-template-columns: 200px 1fr;
+          margin-right: 4rem;
+          label {
+            width: 25rem;
+  
+            background-color: #eeede9;
+            margin-bottom: 1.5rem;
+            font-weight: lighter;
+          }
+          input {
+            width: 13rem;
+            background-color: #eeede9;
+            margin-bottom: 1em;
+            border: 1px solid grey;
+            height: 2rem;
+            font-size: 1rem;
+          }
+          .GiveAwayForm__infoMess {
+            background-color: #eeede9;
+            resize: none;
+            overflow: hidden;
+            font-size: 1rem;
+            border: solid 1px $color-alt2;
+          }
+        }
+      }
+    }
+    .GiveAwayForm__summary {
+      text-align: left;
+      padding: 2.25rem 0 0 8.9rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font-size: 1.5rem;
+      width: 73rem;
+  
+      h1 {
+        margin-top: 4.4rem;
+        font-size: 2.25rem;
+        margin-bottom: 2.8rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 3.125rem;
+        margin-right: 1rem;
+      }
+      .GiveAwayForm__givingBack {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        height: 4rem;
+      }
+      .GiveAwayForm__mainInfo {
+        display: flex;
+        margin-top: 1rem;
+        width: 15rem;
+  
+        h2 {
+          margin-bottom: 1rem;
+        }
+  
+        .GiveAwayForm__column {
+          display: grid;
+          grid-template-columns: 143px 1fr;
+          span {
+            font-weight: lighter;
+            margin-bottom: 1rem;
+          }
+          .GiveAwayForm__infoSpans {
+            font-size: 1rem;
+            font-weight: 600;
+            width: 19rem;
+            padding-right: 1rem;
+            align-self: center;
+            font-size: 1.2rem;
+          }
+          .GiveAwayForm_span {
+            width: 19rem;
+            word-wrap: break-word;
+            font-size: 1.2rem;
+            font-weight: 600;
+            align-self: center;
+          }
+        }
+      }
+    }
+  }
+  .form-carousel__nav-container {
+    .hide {
+      display: none;
+    }
+    button {
+      padding: 1.5rem 3.5rem;
+      background-color: #eeede9;
+      border: 1px solid $color-alt2;
+      margin: 5rem 0 0rem 8rem;
+    }
+  }
+  

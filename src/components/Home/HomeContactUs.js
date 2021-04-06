@@ -17,7 +17,7 @@ function HomeContactUs() {
   const updateForm = e => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
-
+ 
     setErrors(prevState => ({
       ...prevState,
       [name]: ""

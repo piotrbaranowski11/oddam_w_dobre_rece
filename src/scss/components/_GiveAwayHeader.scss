@@ -1,0 +1,61 @@
+.GiveAwayHeader {
+    display: flex;
+    height: 50rem;
+  
+    .GiveAwayHeader__photo {
+      width: 48%;
+      background-image: url("../../assets/Form-Hero-Image.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .GiveAwayHeader__menu {
+      width: 52%;
+      height: 100%;
+      text-align: center;
+      margin-top: 2rem;
+  
+      .GiveAwayHeader__mainDiv {
+        margin-top: 7rem;
+        margin-right: 9rem;
+        h1 {
+          font-size: 2.375rem;
+          font-weight: normal;
+        }
+        img {
+          margin: 1.5rem;
+        }
+        h2 {
+          font-size: 2.5rem;
+          font-weight: lighter;
+        }
+      }
+  
+      .GiveAwayHeader__fourSteps {
+        display: flex;
+        margin-top: 3rem;
+        justify-content: center;
+      }
+  
+      .fourSteps {
+        width: 7rem;
+        height: 7rem;
+        border: 1px solid black;
+        transform: rotate(45deg);
+        margin-left: 1rem;
+        position: relative;
+        p,
+        h3 {
+          position: absolute;
+          transform: rotate(-45deg);
+        }
+        p {
+          padding: 49px 0 0 15px;
+        }
+        h3 {
+          padding: 28px 0 0 17px;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  
