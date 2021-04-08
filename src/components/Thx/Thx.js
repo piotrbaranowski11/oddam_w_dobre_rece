@@ -16,7 +16,7 @@ function Thx() {
     <div className="Thx">
             <div className="Thx__div">
                 <h1>Dziękujemy za przesłanie formularza.<br/>Na maila prześlemy wszelkie informacje o odbiorze.</h1>
-                <img src={require("./../../assets/Decoration.svg")} />
+                <img src={require("./../../assets/Decoration.svg").default} />
             </div>
         </div>
 

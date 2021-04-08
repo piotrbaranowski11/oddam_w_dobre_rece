@@ -11,7 +11,7 @@ function GiveAwayForm() {
 console.log(currentUser)
 
   const [bag, setBag] = useState("1");
-  const [city, setCity] = useState("Warszawa");
+  const [city, setCity] = useState("Poznan");
   const [typeGive, setTypeGive] = useState("");
   const [whoGive, setWhoGive] = useState([]);
 
@@ -346,8 +346,8 @@ console.log(currentUser)
               </div>
               <div className="GiveAwayForm__givingBack">
                 <img
-                  src={require("../../assets/Icon-2.svg")}
-                  className="iconTwo"
+                  src={require("../../assets/Icon-4.svg").default}
+                  className="iconFour"
                   alt="icon"
                 />
                 <p>dla lokalizacji: {city}</p>

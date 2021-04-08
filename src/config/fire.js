@@ -21,7 +21,6 @@ var firebaseConfig = {
         this.db = app.database();
     }
 
-    // *** Auth API ***
 
     getCurrentUser = () => this.auth.currentUser?.email
 
